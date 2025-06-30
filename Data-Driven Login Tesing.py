@@ -9,7 +9,6 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://demoqa.com/login")
 
-
 wait=WebDriverWait(driver,10)
 
 with open('data.csv','r') as file:
